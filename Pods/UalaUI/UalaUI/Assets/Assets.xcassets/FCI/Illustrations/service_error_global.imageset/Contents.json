@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "service_error_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

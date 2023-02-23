@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationViewController" customModule="UalaUI" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="OwZ-Ec-1Dm" id="gFW-jM-WbE"/>
+                <outlet property="primaryActionButton" destination="gcU-Gs-eMr" id="j4b-hd-dGs"/>
+                <outlet property="subtitleLabel" destination="o8o-eX-xhY" id="U13-mF-yZH"/>
+                <outlet property="titleLabel" destination="lUN-nP-bpP" id="K0x-Je-jhi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="0F8-KK-lG7">
+                    <rect key="frame" x="20" y="222.99999999999997" width="335" height="366.33333333333326"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OwZ-Ec-1Dm">
+                            <rect key="frame" x="67.666666666666686" y="0.0" width="200" height="200"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="nfx-ng-J58"/>
+                                <constraint firstAttribute="height" constant="200" id="oCm-bm-iGH"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUN-nP-bpP">
+                            <rect key="frame" x="61.333333333333329" y="239.99999999999997" width="212.33333333333337" height="52.666666666666657"/>
+                            <string key="text">Necesitamos conocer 
+tu ubicación</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8o-eX-xhY">
+                            <rect key="frame" x="52.333333333333329" y="332.66666666666663" width="230.33333333333337" height="33.666666666666686"/>
+                            <string key="text">La necesitamos para poder realizar 
+la transacción :)</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcU-Gs-eMr">
+                    <rect key="frame" x="20" y="710" width="335" height="48"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="ool-ZK-iyE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Primary">
+                        <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0F8-KK-lG7" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="4xv-H2-kwQ"/>
+                <constraint firstItem="0F8-KK-lG7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="GtZ-zm-rQt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0F8-KK-lG7" secondAttribute="trailing" constant="20" id="LUj-6f-1nF"/>
+                <constraint firstItem="gcU-Gs-eMr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="VDA-Z3-8rL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gcU-Gs-eMr" secondAttribute="trailing" constant="20" id="nLH-Gd-b8O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gcU-Gs-eMr" secondAttribute="bottom" constant="20" id="pZN-Tl-cKP"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="96"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

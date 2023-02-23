@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "onboarding_on_your_phone_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

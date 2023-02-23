@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "selfie_no_glasses.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

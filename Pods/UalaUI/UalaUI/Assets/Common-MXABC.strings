@@ -1,0 +1,13 @@
+/* 
+  Common-MXABC.strings
+  Pods
+
+  Created by Ualá on 09/12/2021.
+  
+*/
+
+//Currency related localizables
+"MONEY_TEXTFIELD_PLACEHOLDER" = "$0.00";
+
+// MARK: - Camera Attachment
+"SELFIE_REVIEW_DESCRIPTION" = "Fíjate que no esté movida, tenga buena luz y sirva para compararla con la foto en tu identificación.";

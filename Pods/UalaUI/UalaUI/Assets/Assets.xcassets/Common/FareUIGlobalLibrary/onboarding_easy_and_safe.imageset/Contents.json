@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Category=Onboarding, Variant=Easy and safe.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

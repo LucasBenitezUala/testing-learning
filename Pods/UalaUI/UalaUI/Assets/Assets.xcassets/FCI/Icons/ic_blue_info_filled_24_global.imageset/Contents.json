@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_blue_info_filled_24_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,6 @@
+framework module UalaUtils {
+  umbrella header "UalaUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

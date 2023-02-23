@@ -1,0 +1,17 @@
+/* 
+  Common-CO.strings
+  Pods
+
+  Created by Federico Frias on 15/07/2021.
+  
+*/
+"MFA_TITLE" = "Ingresa tu clave transaccional";
+"FORGOT_KEY_EMAIL" = "Olvidé mi clave transaccional";
+"FORGOT_KEY_TEXT" = "";
+"INVALID_PIN_CODE" = "Este no es tu código. Recuerda que solo tienes 3 intentos.";
+"INVALID_PIN_TRY_LATER" = "Demasiados intentos. Intenta de nuevo en 30 minutos.";
+
+//Currency related localizables
+"TEXT_FIELD_MAX_FRACTION_DIGITS" = "0";
+"TEXT_FIELD_MIN_FRACTION_DIGITS" = "0";
+"MONEY_TEXTFIELD_PLACEHOLDER" = "$0";

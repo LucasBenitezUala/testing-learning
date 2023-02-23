@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "onboarding-transparency.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

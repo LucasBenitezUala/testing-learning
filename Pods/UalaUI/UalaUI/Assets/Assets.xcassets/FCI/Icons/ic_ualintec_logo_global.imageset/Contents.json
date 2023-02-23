@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_ualintec_logo_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

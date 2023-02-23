@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "onboarding_easy_payment_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

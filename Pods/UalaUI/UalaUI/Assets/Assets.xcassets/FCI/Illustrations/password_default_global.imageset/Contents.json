@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "password_default_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

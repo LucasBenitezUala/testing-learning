@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Category=Loyalty, Variant=Prices.pdf",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Category=Loyalty, Variant=Prices@2x.pdf",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Category=Loyalty, Variant=Prices@3x.pdf",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

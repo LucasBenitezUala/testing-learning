@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Category=Investment Profile, Variant=Conservative.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

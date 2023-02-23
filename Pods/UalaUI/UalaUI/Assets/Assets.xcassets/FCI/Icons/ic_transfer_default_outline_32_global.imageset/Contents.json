@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_transfer_default_outline_32_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

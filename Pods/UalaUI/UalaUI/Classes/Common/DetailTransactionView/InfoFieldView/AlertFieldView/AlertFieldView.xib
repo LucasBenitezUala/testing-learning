@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertFieldView" customModule="UalaUI">
+            <connections>
+                <outlet property="alertView" destination="TJQ-1w-eLA" id="TTY-lk-sml"/>
+                <outlet property="contentView" destination="t0j-Gt-O4Z" id="aeb-Bv-wVO"/>
+                <outlet property="iconImage" destination="GaV-P5-4dc" id="WUc-u8-IiC"/>
+                <outlet property="messageLabel" destination="ETP-j7-VbW" id="vJS-Br-ive"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="t0j-Gt-O4Z">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="166"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="TJQ-1w-eLA">
+                    <rect key="frame" x="30" y="106" width="354" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No tenés ese saldo en tu Ualá" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETP-j7-VbW">
+                            <rect key="frame" x="44" y="8" width="300" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.79215686269999996" green="0.16862745100000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_warning_error_filled_32_global" translatesAutoresizingMaskIntoConstraints="NO" id="GaV-P5-4dc">
+                            <rect key="frame" x="10" y="8" width="24" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="W4n-CM-QZi"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="GaV-P5-4dc" firstAttribute="top" secondItem="TJQ-1w-eLA" secondAttribute="top" constant="8" id="4DZ-Ex-qiA"/>
+                        <constraint firstAttribute="bottom" secondItem="GaV-P5-4dc" secondAttribute="bottom" constant="8" id="RYb-py-K6Z"/>
+                        <constraint firstItem="ETP-j7-VbW" firstAttribute="leading" secondItem="GaV-P5-4dc" secondAttribute="trailing" constant="10" id="Ve5-eC-AxV"/>
+                        <constraint firstItem="GaV-P5-4dc" firstAttribute="leading" secondItem="TJQ-1w-eLA" secondAttribute="leading" constant="10" id="Yr5-QR-OV9"/>
+                        <constraint firstAttribute="trailing" secondItem="ETP-j7-VbW" secondAttribute="trailing" constant="10" id="gfk-U4-zpb"/>
+                        <constraint firstItem="ETP-j7-VbW" firstAttribute="top" secondItem="TJQ-1w-eLA" secondAttribute="top" constant="8" id="k6l-Bu-jwz"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="uWd-0B-N10"/>
+                        <constraint firstAttribute="bottom" secondItem="ETP-j7-VbW" secondAttribute="bottom" constant="8" id="zIs-eY-VmY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="tvi-XE-CGR"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TJQ-1w-eLA" firstAttribute="leading" secondItem="tvi-XE-CGR" secondAttribute="leading" constant="30" id="9Q7-sP-QmN"/>
+                <constraint firstItem="tvi-XE-CGR" firstAttribute="trailing" secondItem="TJQ-1w-eLA" secondAttribute="trailing" constant="30" id="CAB-sA-c8c"/>
+                <constraint firstAttribute="bottom" secondItem="TJQ-1w-eLA" secondAttribute="bottom" constant="10" id="f4b-6w-DeJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="155.07246376811597" y="-231.69642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_warning_error_filled_32_global" width="24" height="24"/>
+    </resources>
+</document>

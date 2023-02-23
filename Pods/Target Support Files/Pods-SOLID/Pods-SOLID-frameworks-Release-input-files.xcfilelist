@@ -1,0 +1,25 @@
+${PODS_ROOT}/Target Support Files/Pods-SOLID/Pods-SOLID-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWSAPIGateway/AWSAPIGateway.framework
+${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework
+${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework
+${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework
+${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
+${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework
+${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework
+${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework
+${BUILT_PRODUCTS_DIR}/Split/Split.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework
+${BUILT_PRODUCTS_DIR}/UalaAuth/UalaAuth.framework
+${BUILT_PRODUCTS_DIR}/UalaCore/UalaCore.framework
+${BUILT_PRODUCTS_DIR}/UalaFareUI/UalaFareUI.framework
+${BUILT_PRODUCTS_DIR}/UalaNetwork/UalaNetwork.framework
+${BUILT_PRODUCTS_DIR}/UalaUI/UalaUI.framework
+${BUILT_PRODUCTS_DIR}/UalaUtils/UalaUtils.framework
+${BUILT_PRODUCTS_DIR}/Validator/Validator.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

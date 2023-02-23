@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_income_default_outline_24_global.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

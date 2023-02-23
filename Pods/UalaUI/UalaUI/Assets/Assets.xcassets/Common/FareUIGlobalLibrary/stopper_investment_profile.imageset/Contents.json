@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "State=Stopper, Variant=Investment profile.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

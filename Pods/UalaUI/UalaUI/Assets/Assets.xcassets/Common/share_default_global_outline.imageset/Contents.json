@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "share_default_global_outline.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
