@@ -6,6 +6,8 @@
 //
 
 import XCTest
+import UalaCore
+@testable import UalaAuth
 @testable import UalaUtils
 @testable import SOLID
 
@@ -26,6 +28,23 @@ final class LoginEventsTest: XCTestCase {
         XCTAssertNotNil(spy.debugErrorParameter)
         XCTAssertEqual(spy.debugErrorParameter?.localizedDescription, "")
     }
+    
+    func test_login_success() async {
+        let spectedScheme: Scheme = .develop
+        let spectedCountryEnvironment: CountryEnvironment = .Argentina
+        let spectedLoginData: LoginData = .init(username: "", password: "")
+        let spectedDebugInvokedCount: Int = 2
+        let spectedDebugParamentersCount: Int = 2
+        
+        let (sut, spy) = await makeSut()
+        
+        await sut.loginSuccess(scheme: spectedScheme, country: spectedCountryEnvironment, loginData: spectedLoginData)
+        
+        XCTAssertEqual(spy.debugIsInvokedCount, spectedDebugInvokedCount)
+        XCTAssertEqual(spy.debugParameterList.count, spectedDebugParamentersCount)
+        XCTAssertEqual(spy.debugParameterList[0] as! String, "Sheme -> \(spectedScheme.rawValue)")
+        XCTAssertEqual(spy.debugParameterList[1] as! String, "Country -> \(spectedCountryEnvironment.rawValue)")
+    }
 }
 
 class MockLoginManager: LogManager {
@@ -37,7 +56,11 @@ class MockLoginManager: LogManager {
         debugErrorParameter = error
     }
     
+    var debugIsInvokedCount: Int = 0
+    var debugParameterList: [Any] = []
+    
     override func debug(info: Any, detailed: Bool = true, fileName: String = #file, lineNumber: Int = #line) {
-        
+        debugIsInvokedCount += 1
+        debugParameterList.append(info)
     }
 }
